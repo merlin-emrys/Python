@@ -27,7 +27,7 @@ if result == []:
 
     error = ssh.stderr.readlines()
 
-    print >>sys.stderr, "ERROR: %s" % error
+    print(sys.stderr, "ERROR: %s" % error)
 
 else:
 
